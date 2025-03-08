@@ -7,13 +7,7 @@ import Banner from "../Banner/Banner";
 const RootLayout = () => {
   return (
     <div className="container mx-auto">
-      <div className="bg-[#9538E2] w-auto h-[500px] rounded-2xl">
-        <NavBar></NavBar>
-        <div>
-          <Banner></Banner>
-        </div>
-      </div>
-
+      <NavBar></NavBar>
       <Outlet />
       <Footer></Footer>
     </div>

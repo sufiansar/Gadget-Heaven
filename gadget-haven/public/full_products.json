@@ -1,0 +1,533 @@
+[
+  {
+    "product_id": "LAP001",
+    "product_title": "Dell XPS 15",
+    "product_image": "https://example.com/dell_xps_15.jpg",
+    "category": "Laptop",
+    "price": 1599.99,
+    "description": "Powerful laptop with 4K display and Intel Core i7 processor.",
+    "Specification": [
+      "Intel Core i7-12700H",
+      "16GB RAM",
+      "512GB SSD",
+      "NVIDIA RTX 3050 Ti",
+      "Windows 11"
+    ],
+    "availability": true,
+    "rating": 4.7
+  },
+  {
+    "product_id": "LAP002",
+    "product_title": "HP Spectre x360",
+    "product_image": "https://example.com/hp_spectre_x360.jpg",
+    "category": "Laptop",
+    "price": 1399.99,
+    "description": "Sleek 2-in-1 convertible laptop with OLED touch display.",
+    "Specification": [
+      "Intel Core i7-1255U",
+      "16GB RAM",
+      "1TB SSD",
+      "Intel Iris Xe Graphics",
+      "Windows 11"
+    ],
+    "availability": true,
+    "rating": 4.6
+  },
+  {
+    "product_id": "LAP003",
+    "product_title": "Lenovo Legion 5 Pro",
+    "product_image": "https://example.com/lenovo_legion_5_pro.jpg",
+    "category": "Laptop",
+    "price": 1799.99,
+    "description": "Gaming laptop with high refresh rate and powerful GPU.",
+    "Specification": [
+      "AMD Ryzen 7 6800H",
+      "16GB RAM",
+      "1TB SSD",
+      "NVIDIA RTX 3070",
+      "165Hz Display"
+    ],
+    "availability": false,
+    "rating": 4.8
+  },
+  {
+    "product_id": "ACC007",
+    "product_title": "Logitech MX Master 3",
+    "product_image": "https://example.com/logitech_mx_master_3.jpg",
+    "category": "Accessories",
+    "price": 99.99,
+    "description": "High-performance wireless mouse with ergonomic design.",
+    "Specification": [
+      "Premium build",
+      "Latest OS",
+      "Fast charging",
+      "High-resolution display"
+    ],
+    "availability": false,
+    "rating": 4.7
+  },
+  {
+    "product_id": "ACC008",
+    "product_title": "Razer BlackShark V2",
+    "product_image": "https://example.com/razer_blackshark_v2.jpg",
+    "category": "Accessories",
+    "price": 129.99,
+    "description": "Wired gaming headset with advanced noise isolation.",
+    "Specification": [
+      "Premium build",
+      "Latest OS",
+      "Fast charging",
+      "High-resolution display"
+    ],
+    "availability": true,
+    "rating": 4.8
+  },
+  {
+    "product_id": "ACC009",
+    "product_title": "Corsair K95 RGB Platinum",
+    "product_image": "https://example.com/corsair_k95_rgb_platinum.jpg",
+    "category": "Accessories",
+    "price": 199.99,
+    "description": "Mechanical gaming keyboard with customizable RGB lighting.",
+    "Specification": [
+      "Premium build",
+      "Latest OS",
+      "Fast charging",
+      "High-resolution display"
+    ],
+    "availability": false,
+    "rating": 4.9
+  },
+  {
+    "product_id": "ACC010",
+    "product_title": "Samsung T7 SSD",
+    "product_image": "https://example.com/samsung_t7_ssd.jpg",
+    "category": "Accessories",
+    "price": 169.99,
+    "description": "Portable SSD with ultra-fast transfer speeds.",
+    "Specification": [
+      "Premium build",
+      "Latest OS",
+      "Fast charging",
+      "High-resolution display"
+    ],
+    "availability": true,
+    "rating": 4.5
+  },
+  {
+    "product_id": "ACC011",
+    "product_title": "Anker PowerCore 26800mAh",
+    "product_image": "https://example.com/anker_powercore_26800mah.jpg",
+    "category": "Accessories",
+    "price": 89.99,
+    "description": "High-capacity power bank for charging multiple devices.",
+    "Specification": [
+      "Premium build",
+      "Latest OS",
+      "Fast charging",
+      "High-resolution display"
+    ],
+    "availability": false,
+    "rating": 4.6
+  },
+  {
+    "product_id": "ACC012",
+    "product_title": "HyperX Cloud II",
+    "product_image": "https://example.com/hyperx_cloud_ii.jpg",
+    "category": "Accessories",
+    "price": 99.99,
+    "description": "Comfortable gaming headset with 7.1 surround sound.",
+    "Specification": [
+      "Premium build",
+      "Latest OS",
+      "Fast charging",
+      "High-resolution display"
+    ],
+    "availability": true,
+    "rating": 4.7
+  },
+  {
+    "product_id": "MAC013",
+    "product_title": "MacBook Air M2",
+    "product_image": "https://example.com/macbook_air_m2.jpg",
+    "category": "MacBook",
+    "price": 1199.99,
+    "description": "Ultra-lightweight laptop with Apple M2 chip and Retina display.",
+    "Specification": [
+      "Premium build",
+      "Latest OS",
+      "Fast charging",
+      "High-resolution display"
+    ],
+    "availability": false,
+    "rating": 4.8
+  },
+  {
+    "product_id": "MAC014",
+    "product_title": "MacBook Pro 13-inch M2",
+    "product_image": "https://example.com/macbook_pro_13-inch_m2.jpg",
+    "category": "MacBook",
+    "price": 1299.99,
+    "description": "Powerful MacBook with long battery life and Touch Bar.",
+    "Specification": [
+      "Premium build",
+      "Latest OS",
+      "Fast charging",
+      "High-resolution display"
+    ],
+    "availability": true,
+    "rating": 4.9
+  },
+  {
+    "product_id": "MAC015",
+    "product_title": "MacBook Pro 14-inch M3",
+    "product_image": "https://example.com/macbook_pro_14-inch_m3.jpg",
+    "category": "MacBook",
+    "price": 1999.99,
+    "description": "High-performance laptop with ProMotion display.",
+    "Specification": [
+      "Premium build",
+      "Latest OS",
+      "Fast charging",
+      "High-resolution display"
+    ],
+    "availability": false,
+    "rating": 4.5
+  },
+  {
+    "product_id": "MAC016",
+    "product_title": "MacBook Pro 16-inch M3 Max",
+    "product_image": "https://example.com/macbook_pro_16-inch_m3_max.jpg",
+    "category": "MacBook",
+    "price": 2499.99,
+    "description": "Top-tier MacBook with unmatched processing power.",
+    "Specification": [
+      "Premium build",
+      "Latest OS",
+      "Fast charging",
+      "High-resolution display"
+    ],
+    "availability": true,
+    "rating": 4.6
+  },
+  {
+    "product_id": "MAC017",
+    "product_title": "MacBook Air M1",
+    "product_image": "https://example.com/macbook_air_m1.jpg",
+    "category": "MacBook",
+    "price": 999.99,
+    "description": "Budget-friendly MacBook with M1 chip.",
+    "Specification": [
+      "Premium build",
+      "Latest OS",
+      "Fast charging",
+      "High-resolution display"
+    ],
+    "availability": false,
+    "rating": 4.7
+  },
+  {
+    "product_id": "MAC018",
+    "product_title": "MacBook Pro 16-inch Intel",
+    "product_image": "https://example.com/macbook_pro_16-inch_intel.jpg",
+    "category": "MacBook",
+    "price": 2299.99,
+    "description": "MacBook with Intel processor for legacy applications.",
+    "Specification": [
+      "Premium build",
+      "Latest OS",
+      "Fast charging",
+      "High-resolution display"
+    ],
+    "availability": true,
+    "rating": 4.8
+  },
+  {
+    "product_id": "PHO019",
+    "product_title": "Samsung Galaxy S23 Ultra",
+    "product_image": "https://example.com/samsung_galaxy_s23_ultra.jpg",
+    "category": "Phone",
+    "price": 1199.99,
+    "description": "Flagship smartphone with S-Pen support and 200MP camera.",
+    "Specification": [
+      "Premium build",
+      "Latest OS",
+      "Fast charging",
+      "High-resolution display"
+    ],
+    "availability": false,
+    "rating": 4.9
+  },
+  {
+    "product_id": "PHO020",
+    "product_title": "OnePlus 11 5G",
+    "product_image": "https://example.com/oneplus_11_5g.jpg",
+    "category": "Phone",
+    "price": 799.99,
+    "description": "Premium 5G smartphone with ultra-fast charging.",
+    "Specification": [
+      "Premium build",
+      "Latest OS",
+      "Fast charging",
+      "High-resolution display"
+    ],
+    "availability": true,
+    "rating": 4.5
+  },
+  {
+    "product_id": "PHO021",
+    "product_title": "Google Pixel 8 Pro",
+    "product_image": "https://example.com/google_pixel_8_pro.jpg",
+    "category": "Phone",
+    "price": 899.99,
+    "description": "Stock Android experience with Google AI camera.",
+    "Specification": [
+      "Premium build",
+      "Latest OS",
+      "Fast charging",
+      "High-resolution display"
+    ],
+    "availability": false,
+    "rating": 4.6
+  },
+  {
+    "product_id": "PHO022",
+    "product_title": "Xiaomi 13 Pro",
+    "product_image": "https://example.com/xiaomi_13_pro.jpg",
+    "category": "Phone",
+    "price": 999.99,
+    "description": "Powerful flagship with Leica-branded camera system.",
+    "Specification": [
+      "Premium build",
+      "Latest OS",
+      "Fast charging",
+      "High-resolution display"
+    ],
+    "availability": true,
+    "rating": 4.7
+  },
+  {
+    "product_id": "PHO023",
+    "product_title": "Asus ROG Phone 7",
+    "product_image": "https://example.com/asus_rog_phone_7.jpg",
+    "category": "Phone",
+    "price": 1099.99,
+    "description": "Gaming-focused phone with high refresh rate display.",
+    "Specification": [
+      "Premium build",
+      "Latest OS",
+      "Fast charging",
+      "High-resolution display"
+    ],
+    "availability": false,
+    "rating": 4.8
+  },
+  {
+    "product_id": "PHO024",
+    "product_title": "Sony Xperia 1 V",
+    "product_image": "https://example.com/sony_xperia_1_v.jpg",
+    "category": "Phone",
+    "price": 1199.99,
+    "description": "Professional-grade smartphone with 4K OLED display.",
+    "Specification": [
+      "Premium build",
+      "Latest OS",
+      "Fast charging",
+      "High-resolution display"
+    ],
+    "availability": true,
+    "rating": 4.9
+  },
+  {
+    "product_id": "SMA025",
+    "product_title": "Apple Watch Series 9",
+    "product_image": "https://example.com/apple_watch_series_9.jpg",
+    "category": "Smart Watches",
+    "price": 399.99,
+    "description": "Advanced smartwatch with health and fitness tracking.",
+    "Specification": [
+      "Premium build",
+      "Latest OS",
+      "Fast charging",
+      "High-resolution display"
+    ],
+    "availability": false,
+    "rating": 4.5
+  },
+  {
+    "product_id": "SMA026",
+    "product_title": "Samsung Galaxy Watch 6",
+    "product_image": "https://example.com/samsung_galaxy_watch_6.jpg",
+    "category": "Smart Watches",
+    "price": 349.99,
+    "description": "Premium smartwatch with Samsung Health integration.",
+    "Specification": [
+      "Premium build",
+      "Latest OS",
+      "Fast charging",
+      "High-resolution display"
+    ],
+    "availability": true,
+    "rating": 4.6
+  },
+  {
+    "product_id": "SMA027",
+    "product_title": "Garmin Fenix 7",
+    "product_image": "https://example.com/garmin_fenix_7.jpg",
+    "category": "Smart Watches",
+    "price": 699.99,
+    "description": "Rugged smartwatch with GPS and adventure tracking.",
+    "Specification": [
+      "Premium build",
+      "Latest OS",
+      "Fast charging",
+      "High-resolution display"
+    ],
+    "availability": false,
+    "rating": 4.7
+  },
+  {
+    "product_id": "SMA028",
+    "product_title": "Fitbit Sense 2",
+    "product_image": "https://example.com/fitbit_sense_2.jpg",
+    "category": "Smart Watches",
+    "price": 249.99,
+    "description": "Health-focused smartwatch with stress monitoring.",
+    "Specification": [
+      "Premium build",
+      "Latest OS",
+      "Fast charging",
+      "High-resolution display"
+    ],
+    "availability": true,
+    "rating": 4.8
+  },
+  {
+    "product_id": "SMA029",
+    "product_title": "Huawei Watch GT 3",
+    "product_image": "https://example.com/huawei_watch_gt_3.jpg",
+    "category": "Smart Watches",
+    "price": 229.99,
+    "description": "Sleek smartwatch with long battery life.",
+    "Specification": [
+      "Premium build",
+      "Latest OS",
+      "Fast charging",
+      "High-resolution display"
+    ],
+    "availability": false,
+    "rating": 4.9
+  },
+  {
+    "product_id": "SMA030",
+    "product_title": "TicWatch Pro 3",
+    "product_image": "https://example.com/ticwatch_pro_3.jpg",
+    "category": "Smart Watches",
+    "price": 299.99,
+    "description": "Wear OS smartwatch with dual-layer display.",
+    "Specification": [
+      "Premium build",
+      "Latest OS",
+      "Fast charging",
+      "High-resolution display"
+    ],
+    "availability": true,
+    "rating": 4.5
+  },
+  {
+    "product_id": "IPH031",
+    "product_title": "iPhone 15 Pro",
+    "product_image": "https://example.com/iphone_15_pro.jpg",
+    "category": "Iphone",
+    "price": 999.99,
+    "description": "Latest iPhone with titanium frame and A17 Pro chip.",
+    "Specification": [
+      "Premium build",
+      "Latest OS",
+      "Fast charging",
+      "High-resolution display"
+    ],
+    "availability": false,
+    "rating": 4.6
+  },
+  {
+    "product_id": "IPH032",
+    "product_title": "iPhone 15 Pro Max",
+    "product_image": "https://example.com/iphone_15_pro_max.jpg",
+    "category": "Iphone",
+    "price": 1199.99,
+    "description": "Top-tier iPhone with periscope zoom camera.",
+    "Specification": [
+      "Premium build",
+      "Latest OS",
+      "Fast charging",
+      "High-resolution display"
+    ],
+    "availability": true,
+    "rating": 4.7
+  },
+  {
+    "product_id": "IPH033",
+    "product_title": "iPhone 15",
+    "product_image": "https://example.com/iphone_15.jpg",
+    "category": "Iphone",
+    "price": 799.99,
+    "description": "Affordable flagship iPhone with Dynamic Island.",
+    "Specification": [
+      "Premium build",
+      "Latest OS",
+      "Fast charging",
+      "High-resolution display"
+    ],
+    "availability": false,
+    "rating": 4.8
+  },
+  {
+    "product_id": "IPH034",
+    "product_title": "iPhone 14 Pro",
+    "product_image": "https://example.com/iphone_14_pro.jpg",
+    "category": "Iphone",
+    "price": 899.99,
+    "description": "Previous-gen iPhone with ProMotion display.",
+    "Specification": [
+      "Premium build",
+      "Latest OS",
+      "Fast charging",
+      "High-resolution display"
+    ],
+    "availability": true,
+    "rating": 4.9
+  },
+  {
+    "product_id": "IPH035",
+    "product_title": "iPhone 13 Mini",
+    "product_image": "https://example.com/iphone_13_mini.jpg",
+    "category": "Iphone",
+    "price": 699.99,
+    "description": "Compact iPhone with great performance.",
+    "Specification": [
+      "Premium build",
+      "Latest OS",
+      "Fast charging",
+      "High-resolution display"
+    ],
+    "availability": false,
+    "rating": 4.5
+  },
+  {
+    "product_id": "IPH036",
+    "product_title": "iPhone SE 3rd Gen",
+    "product_image": "https://example.com/iphone_se_3rd_gen.jpg",
+    "category": "Iphone",
+    "price": 429.99,
+    "description": "Budget-friendly iPhone with Touch ID.",
+    "Specification": [
+      "Premium build",
+      "Latest OS",
+      "Fast charging",
+      "High-resolution display"
+    ],
+    "availability": true,
+    "rating": 4.6
+  }
+]
