@@ -1,9 +1,11 @@
 import React from "react";
-import { NavLink } from "react-router-dom";
+import { NavLink, useLocation } from "react-router-dom";
 import { HiMiniShoppingCart } from "react-icons/hi2";
 import { FaHeart } from "react-icons/fa";
 
 const NavBar = () => {
+  const location = useLocation();
+
   const links = (
     <>
       <li>
@@ -17,12 +19,14 @@ const NavBar = () => {
       </li>
     </>
   );
+
   return (
     <div
-      className="navbar bg-[#9538E2]
-    
-    
-    "
+      className={
+        location.pathname === "/"
+          ? "navbar bg-[#9538E2] text-black"
+          : "navbar bg-white text-black"
+      }
     >
       <div className="navbar-start ">
         <div className="dropdown">

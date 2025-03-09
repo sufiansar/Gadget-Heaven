@@ -3,24 +3,20 @@ import { Link } from "react-router-dom";
 
 const Gadget = ({ gadget }) => {
   console.log(gadget);
-  const { product_title, category, price } = gadget;
+  const { product_title, category, price, product_image } = gadget;
   return (
-    <Link>
-      <div className="card bg-base-100 w-96 shadow-sm">
-        <figure>
-          <img
-            src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
-            alt="Shoes"
-          />
+    <Link to={`/gadget ${category}`}>
+      <div className="card bg-white text-black h-96  w-full md:w-84 shadow-sm">
+        <figure className="bg-[#D9D9D9] m-4 p-4">
+          <img className="h-40 w-60" src={product_image} alt="Shoes" />
         </figure>
         <div className="card-body">
-          <h2 className="card-title">Card Title</h2>
-          <p>
-            A card component has a figure, a body part, and inside body there
-            are title and actions parts
-          </p>
-          <div className="card-actions justify-end">
-            <button className="btn btn-primary">Buy Now</button>
+          <h2 className="card-title">{product_title}</h2>
+          <p> Price:- {price}$</p>
+          <div className="card-actions ">
+            <button className="btn btn-outline btn-accent rounded-3xl">
+              View Details
+            </button>
           </div>
         </div>
       </div>
