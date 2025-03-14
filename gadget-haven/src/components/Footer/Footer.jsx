@@ -1,8 +1,16 @@
 import React from "react";
+import { useLocation } from "react-router-dom";
 
 const Footer = () => {
+  const location = useLocation();
   return (
-    <footer className="footer footer-horizontal footer-center bg-primary text-primary-content p-10">
+    <footer
+      className={
+        location.pathname === "/"
+          ? "footer footer-horizontal footer-center bg-primary text-primary-content p-10"
+          : "bg-white text-black footer footer-horizontal footer-center p-10"
+      }
+    >
       <aside>
         <svg
           width="50"

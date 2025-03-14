@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { useLoaderData, Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 import Gadget from "../Gadget/Gadget";
 
 const GadgetCards = () => {
@@ -39,7 +39,10 @@ const GadgetCards = () => {
           >
             Accessories
           </Link>
-          <Link className="hover:bg-purple-600 btn border-none mx-4 w-30">
+          <Link
+            to={"/smart-watch"}
+            className="hover:bg-purple-600 btn border-none mx-4 w-30"
+          >
             Smart Watches
           </Link>
           <Link className="hover:bg-purple-600 btn border-none mx-4 w-30">
